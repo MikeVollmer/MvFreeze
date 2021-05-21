@@ -43,7 +43,7 @@ p{
   font-family: 'Quicksand', sans-serif;
   font-size: 1.2rem;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -151,7 +151,15 @@ hr {
 /* embedded map */
 iframe{
   width: 100%;
-  padding: 5px;
+  padding: 5%;
+}
+
+/* image */ 
+div[id^="img"] {
+  display: inline-flex;
+}
+img{
+padding: 7%;
 }
 
 
