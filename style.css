@@ -1,0 +1,181 @@
+/* Stylesheet for Mike Vollmer portfolio site */
+
+/* RULES */
+*, ::after, ::before{
+  box-sizing: border-box;
+}
+/* header */
+header{
+	background-color: rgb(33, 85, 107);
+  padding: 10px;
+  width: 100%;
+  height: 170px;
+}
+
+/* BODY */
+body{
+  background-color: rgb(33, 85, 107);
+}
+
+/* headings */
+h1{
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 36px;
+}
+h2{
+  color: white;
+  font-family: 'Lobster',cursive;
+  font-size: 1.8rem;
+  text-align:center;
+}
+h3{
+	font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* paragraphs */
+
+p{
+  /*color: rgb(92, 92, 92);*/
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* LINKS */
+
+/* nav links */
+ul[id^="nav"] {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  list-style-type: none;
+}
+ul[id^="nav"] > li{
+  padding: 6px 0;
+  list-style-type: none;
+}
+ul[id^="nav"] > li > a{
+  position: relative;
+  display: inline-block;
+  padding: 5px, 0;
+  font: 450 1.6rem Raleway, sans-serif;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #A9E4EF;
+  background: linear-gradient( #A9E4EF 0 100%) left / 0 no-repeat;
+  transition: 0.3s linear;
+}
+ul[id^="nav"] > li > a:hover{
+  background-size: 100%;
+  -webkit-text-stroke: 2px rgb(33, 85, 107);
+  color: transparent;
+}
+/* end nav links */
+
+/* ul links */
+
+ul > li > a:link{
+  color: aquamarine;
+}
+ul > li > a:visited{
+  color: rgb(156, 50, 255);
+}
+ul > li > a:hover{
+  color: aqua;
+}
+ul > li > a:active{
+  color: rgb(73, 23, 119);
+}
+
+
+
+
+/* DIVS AND ARTICLES */
+main{
+  background-color: #A9E4EF;
+}
+
+ul {
+  font-family: 'Montserrat' , sans-serif;
+  color: #A9E4EF;
+  list-style-type: circle;
+}
+li{
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+ol {
+    font-family: 'Montserrat' , sans-serif;
+    color: #A9E4EF;
+}
+
+
+/* divs */
+div {
+  display: inline-block;
+}
+div[id^="main-heading"]{
+  padding-bottom: 10px;
+  width: 50%;
+  vertical-align: top;
+}
+div[id^="content"]{
+  background-color: rgb(33, 85, 107);
+  width: 70%;
+  margin-top: 25px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-bottom: 25px;
+  border-radius: 8px;
+}
+
+/* horizontal rule */
+hr {
+  width: 35%;
+  height: 3px;
+  border: none;
+  background-color: blueviolet;
+  size: 2px;
+}
+
+/* embedded map */
+iframe{
+  width: 100%;
+  padding: 5px;
+}
+
+
+/* FOOTER */
+footer{
+  height: 30px;
+  background-color: rgb(33, 85, 107);
+}
+
+/* CLASSES */
+
+/* text alignment */
+.align-right{
+	text-align: right;
+  width: 49%;
+}
+.align-center{
+  text-align: center;
+  width: 100%;
+}
+
+/* add bottom margin */
+.add-btm-margin{
+  margin-bottom: 25px;
+}
+
+
