@@ -9,7 +9,7 @@ header{
   background-color: rgb(33, 85, 107);
   padding: 10px;
   width: 100%;
-  height: 180px;
+  height: 28vw;
   vertical-align: top;
 }
 
@@ -22,7 +22,7 @@ body{
 h1{
   color: white;
   font-family: 'Abril Fatface', cursive;
-  font-size: 3.2rem;
+  font-size: 6.4vw;
 }
 h2{
   color: white;
@@ -33,7 +33,7 @@ h2{
 h3{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 1.2rem;
+  font-size: 4.2vw;
 }
 
 /* paragraphs */
@@ -67,7 +67,7 @@ ul[id^="nav"] > li > a{
   position: relative;
   display: inline-block;
   padding: 5px, 0;
-  font: 450 1.6rem Raleway, sans-serif;
+  font: 450 3.8vw Raleway, sans-serif;
   letter-spacing: 2px;
   text-decoration: none;
   text-transform: uppercase;
@@ -109,18 +109,15 @@ ul {
   font-family: 'Montserrat' , sans-serif;
   color: #A9E4EF;
   list-style-type: circle;
-  padding-left: 10px;
 }
 li{
   font-weight: 400;
   font-size: 4.2vw;
-  padding: 4px;
 }
 
 ol {
     font-family: 'Montserrat' , sans-serif;
     color: #A9E4EF;
-    padding-left: 10px;
 }
 
 
