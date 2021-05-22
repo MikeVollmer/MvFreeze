@@ -125,6 +125,7 @@ ol {
 /* divs */
 div {
   display: inline-block;
+  padding: 0, 5px;
 }
 div[id^="main-heading"]{
   padding-bottom: 10px;
