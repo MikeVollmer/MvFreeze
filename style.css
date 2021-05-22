@@ -109,6 +109,7 @@ ul {
   font-family: 'Montserrat' , sans-serif;
   color: #A9E4EF;
   list-style-type: circle;
+  margin-left: 1.5vw;
 }
 li{
   font-weight: 400;
@@ -119,6 +120,7 @@ li{
 ol {
     font-family: 'Montserrat' , sans-serif;
     color: #A9E4EF;
+    margin-left: 1.5vw;
 }
 
 
