@@ -24,10 +24,11 @@ h1{
   font-family: 'Abril Fatface', cursive;
   font-size: 6.4vw;
 }
-h2[id^="webdev"]{
+h2{
   font-family: 'Montserrat', sans-serif;
   color: white;
   font-size: 4.2vw;
+  text-align: left;
 }
 h3{
   color: white;
