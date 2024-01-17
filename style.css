@@ -204,8 +204,8 @@ iframe{
 
 
 img{
-flex: 1 50%;
-max-width: 100%;
+flex: 1 50vw;
+max-width: 70vw;
 /*height: 50vh;*/
 object-fit: cover;
 }
