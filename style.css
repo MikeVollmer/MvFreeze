@@ -105,6 +105,12 @@ main{
   background-color: #A9E4EF;
 }
 
+/* Tables */
+
+table, th, td {
+  border: 1px solid black;
+}
+
 ul {
   font-family: 'Montserrat' , sans-serif;
   color: #A9E4EF;
