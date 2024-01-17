@@ -21,7 +21,7 @@ body{
 /* headings */
 h1{
   color: white;
-  font-family: 'DM Sans', Regular;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6.4vw;
 }
 h2{
@@ -32,7 +32,7 @@ h2{
 }
 h3{
   color: white;
-  font-family: 'Lobster',cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5.6vw;
   text-align:center;
 }
