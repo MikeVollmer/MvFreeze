@@ -69,7 +69,7 @@ ul[id^="nav"] {
   flex-direction: column;
   width: 100%;
   list-style-type: none;
-  padding-right: 2vw;
+  padding-right: 2.5vw;
 }
 ul[id^="nav"] > li{
   padding: 6px 0;
@@ -141,19 +141,20 @@ td {
 
 ul {
   font-family: 'Montserrat' , sans-serif;
-  color: #A9E4EF;
+  color: white;
   list-style-type: circle;
   margin-left: 1.5vw;
+  margin-right: 1.5vw;
 }
 li{
-  font-weight: 400;
-  font-size: 2.2vw;
+  font-weight: 700;
+  font-size: 2.6vw;
   margin-left: 4vw;
 }
 
 ol {
     font-family: 'Montserrat' , sans-serif;
-    color: #A9E4EF;
+    color: white;
     margin-left: 1.5vw;
 }
 
@@ -180,6 +181,19 @@ div[id^="content"]{
   margin-bottom: 25px;
   border: 1vw solid white;
   border-radius: 8px;
+}
+
+a:link{
+  color: aquamarine;
+}
+a:visited{
+  color: rgb(156, 50, 255);
+}
+a:hover{
+  color: aqua;
+}
+a:active{
+  color: rgb(73, 23, 119);
 }
 
 div[id^="navigation"]{
@@ -248,5 +262,3 @@ footer{
 .add-btm-margin{
   margin-bottom: 25px;
 }
-
-
