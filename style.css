@@ -208,6 +208,10 @@ img{
 padding: 7%;
 }
 
+div[id^="imgBox"] {
+  
+}
+
 
 /* FOOTER */
 footer{
