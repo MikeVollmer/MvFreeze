@@ -14,6 +14,8 @@ header{
   width: 100%;
   height: 28vw;
   vertical-align: top;
+  border: 6px solid white;
+  border-radius: 8px;
 }
 
 /* BODY */
@@ -171,6 +173,7 @@ div[id^="content"]{
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 25px;
+  border: 6px solid white;
   border-radius: 8px;
 }
 
@@ -208,7 +211,10 @@ padding: 7%;
 /* FOOTER */
 footer{
   height: 10vw;
-  background-color: rgb(33, 85, 107);
+  background-image: url("/BlueBackground.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 /* CLASSES */
