@@ -202,7 +202,6 @@ iframe{
 
 /* image */ 
 div[id^="img"] {
-  display: inline-flex;
 }
 
 img{
