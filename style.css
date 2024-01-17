@@ -16,7 +16,7 @@ header{
 /* BODY */
 body{
   background-color: rgb(33, 85, 107);
-  background-image: /2506217.jpg ;
+  background-image: src = "/2506217.jpg" ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
