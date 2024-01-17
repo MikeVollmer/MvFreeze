@@ -201,13 +201,12 @@ iframe{
 }
 
 /* image */ 
-div[id^="img"] {
-}
+
 
 img{
-flex: 1 200px;
-width: 400px;
-height: 400px;
+flex: 1 20vw;
+width: 20vw;
+height: 20vw;
 object-fit: cover;
 }
 
