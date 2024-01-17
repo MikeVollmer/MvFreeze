@@ -6,7 +6,8 @@
 }
 /* header */
 header{
-  background-image: url("BlueBackground.jpg") ;
+  /*background-image: url("BlueBackground.jpg") ;*/
+  background-image: url("AIShop.png") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
