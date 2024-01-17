@@ -14,7 +14,7 @@ header{
   width: 100%;
   height: auto;
   vertical-align: top;
-  border: 2px solid white;
+  border: 1vw solid white;
   border-radius: 8px;
 }
 
@@ -174,7 +174,7 @@ div[id^="content"]{
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 25px;
-  border: 2px solid white;
+  border: 1vw solid white;
   border-radius: 8px;
 }
 
@@ -205,7 +205,7 @@ iframe{
 
 img{
 flex: 1 50vw;
-max-width: 70vw;
+max-width: 68vw;
 /*height: 50vh;*/
 object-fit: cover;
 }
@@ -223,7 +223,7 @@ footer{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  border: 2px solid white;
+  border: 1vw solid white;
   border-radius: 8px;
 }
 
