@@ -159,7 +159,7 @@ div[id^="main-heading"]{
   vertical-align: top;
 }
 div[id^="content"]{
-  background-color: rgb(33, 85, 107);
+  /*background-color: rgb(33, 85, 107);*/
   width: 70%;
   margin-top: 25px;
   margin-left: 15%;
