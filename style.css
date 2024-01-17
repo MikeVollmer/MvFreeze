@@ -15,7 +15,6 @@ header{
 
 /* BODY */
 body{
-  background-color: rgb(33, 85, 107);
   background-image: url("/2506217.jpg") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -160,6 +159,10 @@ div[id^="main-heading"]{
 }
 div[id^="content"]{
   /*background-color: rgb(33, 85, 107);*/
+  background-image: url("/2506217.jpg") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   width: 70%;
   margin-top: 25px;
   margin-left: 15%;
