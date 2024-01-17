@@ -204,12 +204,20 @@ iframe{
 div[id^="img"] {
   display: inline-flex;
 }
+
 img{
-padding: 7%;
+padding: 5%;
+flex: 1 200px;
+width: 400px;
+height: 400px;
+object-fit: cover;
 }
 
-div[id^="imgBox"] {
-  
+div[id^="imageBox"] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 
