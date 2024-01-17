@@ -20,7 +20,7 @@ header{
 
 /* BODY */
 body{
-  background-image: url("/2506217.jpg") ;
+  background-image: url("2506217.jpg") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -111,7 +111,7 @@ ul > li > a:active{
 /* DIVS AND ARTICLES */
 main{
   background-color: #A9E4EF;
-  background-image: url("/2506217.jpg") ;
+  background-image: url("2506217.jpg") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -165,7 +165,7 @@ div[id^="main-heading"]{
   vertical-align: top;
 }
 div[id^="content"]{
-  background-image: url("/BlueBackground.jpg") ;
+  background-image: url("BlueBackground.jpg") ;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
