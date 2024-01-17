@@ -214,8 +214,6 @@ object-fit: cover;
 div[id^="imageBox"] {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
 }
 
 
