@@ -31,13 +31,15 @@ body{
 h1{
   color: white;
   font-family: 'Montserrat', sans-serif;
-  font-size: 6.4vw;
+  font-size: 6.6vw;
+  font-weight: 900;
 }
 h2{
   font-family: 'Montserrat', sans-serif;
   color: white;
-  font-size: 4.2vw;
+  font-size: 4.6vw;
   text-align: left;
+  font-weight: 600;
 }
 h3{
   color: white;
