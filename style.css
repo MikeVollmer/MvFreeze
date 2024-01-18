@@ -69,7 +69,8 @@ ul[id^="nav"] {
   flex-direction: column;
   height: 100%;
   list-style-type: none;
-  padding-right: 2.5vw;
+  padding-right: 2vw;
+  padding-bottom: 2vw;
 }
 ul[id^="nav"] > li{
   list-style-type: none;
